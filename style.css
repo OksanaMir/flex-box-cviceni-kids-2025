@@ -1,0 +1,113 @@
+html{
+    box-sizing: border-box;
+}
+*, ::before,::after{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f0f8ff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .box {
+    border: 2px dashed #ccc;
+    background: white;
+    min-height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    font-size: 2rem;
+  }
+  
+  /* Vizuální styl emoji */
+  .box div {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  /* Flexbox úkoly (nevyplněné – doplní žáci podle komentářů) */
+  
+  /* 1. Taneční parket: Zarovnej tanečníky na střed */
+  .box1 {
+    
+  }
+  
+  /* 2. Zoo: Rozmísti zvířata rovnoměrně po celé šířce */
+  .box2 {
+   
+  }
+  
+  /* 3. Vlak: Všechny vagóny v řadě, zarovnané vlevo */
+  .box3 {
+    
+  }
+  
+  /* 4. Školka: Umísti děti do sloupce a zarovnej na střed */
+  .box4 {
+   
+  }
+  
+  /* 5. Sklad: Mezi balíčky nechte mezeru 30px */
+  .box5 {
+   
+  }
+  
+  /* 6. Akvárium: Rozmísti ryby svisle rovnoměrně */
+  .box6 {
+   
+  }
+  .fish{
+    
+  }
+
+  /* 7. Zeleninová zahrádka: Použij flex-wrap pro 3 řádky zeleniny */
+.box7 {
+  }
+  
+  .box7 .veg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    border: 2px solid #8bc34a;
+    background-color: #f1f8e9;
+    border-radius: 8px;
+  }
+/* 8. Třídění krabic: Změň pořadí boxů pomocí order */
+.box8 {
+    /* TODO: Nastav flexbox a srovnej obsah */
+   
+  }
+  
+  /* Vizuální styl boxů */
+  .box8 .box-item {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    background: #e0f7fa;
+    border: 2px solid #00acc1;
+    border-radius: 6px;
+    line-height: 60px;
+  }
+  
+  /* TODO: Změň pořadí boxů tak, aby byly např. 3️⃣ 1️⃣ 5️⃣ 2️⃣ 4️⃣ */
+  
+    /* TODO: Změň pořadí boxů tak, aby byly např.  1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣   */
